@@ -17,9 +17,8 @@ h1 {
 nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
     text-decoration: none;
-    font: white;
+    color: gray;
 }
 
 a {
@@ -28,23 +27,34 @@ a {
 
 hr {
     border-width: 1px;
-    border-style: inset;
     border-color: gray;
     margin-top: 25px;
     margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    height: 225px;
+    height: 250px;
     width: auto;
-    border: gray 2px solid;
+    border: gray 1px solid;
     padding: 5px;
     margin: 10px;
+    float: right;
+}
+
+p {
+    color: lightgray;
+    font-family: Georgia;
+    line-height: 1.5;
+}
+
+p.links {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .active {
@@ -56,5 +66,6 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    color: gray;
 
 }
