@@ -7,15 +7,6 @@ body {
     flex-direction: column;
 }
 
-
-@media (min-width: 768px) {
-}
-
-/* -----------MODAL--------------- */
-
-
-
-
 /*------------HEADER--------------*/
 nav {
     text-align: center;
@@ -46,8 +37,38 @@ main {
 
 .display-4 { /*Styling to Jumbotron*/
     text-align: left;
-
 }
+
+@media (min-width: 576px){ /*_MOBILE*/
+    main {
+        padding: 50px 150px 0px 150px;
+    }
+    
+    .wendytext {
+        margin-bottom: 50px;
+    }
+
+    .aboutwendy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        align-self: center;
+    }
+
+   .list-group {
+       margin: 50px 0px 100px 0px;
+   }
+
+    footer {
+        padding: 50px 150px 0px 150px;
+    }
+}
+
+@media (min-width: 992px){ /*_DESKTOP*/
 
 h2 {
     font-size: 20px;
@@ -59,7 +80,6 @@ h2 {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 
 .list-group {
     margin-top: 50px;
