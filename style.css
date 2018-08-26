@@ -1,11 +1,20 @@
 body {
     background-color: white;
-    width: 100%;
-    display: flex;
+    text-shadow: 0 1px 3px 
+    display: flex; /*Flex Container Properties*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+
+@media (min-width: 768px) {
+}
+
+/* -----------MODAL--------------- */
+
+
+
 
 /*------------HEADER--------------*/
 nav {
@@ -15,18 +24,17 @@ nav {
     color: gray;
 }
 
-.navbar-brand {
-    text-align: left;
+.navbar {
+    margin: 10px auto 60px auto;
 }
 
-.display-4 { /*Styling to Jumbotron*/
+.navbar-brand {
     text-align: left;
 }
 
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 25px;
 }
 
 
@@ -34,6 +42,11 @@ h1 {
 
 main {
     padding: 10px 100px;
+}
+
+.display-4 { /*Styling to Jumbotron*/
+    text-align: left;
+
 }
 
 h2 {
@@ -45,6 +58,11 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+
+.list-group {
+    margin-top: 50px;
 }
 
 /*----------------LINKS---------------*/
@@ -59,6 +77,10 @@ h2 {
 
 a.linkcolor {
     color: #17a2b8;
+}
+
+a:focus, a:hover{
+    color: darkslategray;
 }
 
 footer {
