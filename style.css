@@ -15,6 +15,10 @@ nav {
     color: gray;
 }
 
+.navbar-brand {
+    text-align: left;
+}
+
 .display-4 { /*Styling to Jumbotron*/
     text-align: left;
 }
@@ -53,12 +57,13 @@ h2 {
     padding-right: 20px;
 }
 
-a {
-    color: rgb(88,196,135);
-    } 
+a.linkcolor {
+    color: #17a2b8;
+}
 
 footer {
-    text-align: left;
+    margin: 40px 100px;
+    align-self: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
     color: gray;
